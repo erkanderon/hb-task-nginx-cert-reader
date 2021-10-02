@@ -1,1 +1,19 @@
-1
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reader-deployment
+spec:
+  selector:
+    matchLabels:
+      app: reader
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: reader
+    spec:
+      containers:
+      - name: reader
+        image: erkanderon/app:v2.0.0
+        ports:
+        - containerPort: 8000
