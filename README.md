@@ -1,4 +1,9 @@
-# Hbtask
+# HB Task
+
+## Infrastructure Design Case
+Ansible tool ile hostları grupladığımız vmleri update edebiliriz.
+![Ansible](https://raw.githubusercontent.com/erkanderon/hb-task-nginx-cert-reader/master/vm.png)
+
 ## Software Development Case
 
 Hepsiburada Task uygulaması Google Cloud üzerinde kurulmuş olan Kubernetes cluster üzerinde deploy edilmiştir.
